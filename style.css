@@ -1,0 +1,114 @@
+:root {
+  --black: #0d1b2a;
+  --dark-blue: #1b263b;
+  --mid-blue: #415a77;
+  --light-blue: #778da9;
+  --beige: #e0e1dd;
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: 10vh 5vh 1fr 10vh;
+}
+
+/*
+
+header {
+  grid-column-end: span 2;
+  background-color: var(--black);
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-rows: 10vh 1fr;
+}
+
+*/
+
+header {
+  grid-column-end: span 2;
+  background-color: var(--black);
+  display: flex;
+}
+
+.header-flex-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--beige);
+  font-family: "Raleway", sans-serif;
+}
+
+.shops-button {
+  background-color: var(--light-blue);
+  padding: 0.8rem;
+  margin-right: 0.8vw;
+  margin-left: auto;
+}
+
+nav {
+  display: flex;
+  grid-column-end: span 2;
+  background-color: var(--mid-blue);
+  justify-content: space-around;
+  align-items: center;
+}
+
+#news {
+  background-color: var(--light-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#cars {
+  background-color: var(--light-blue);
+}
+
+#cars img {
+  max-width: 100%;
+}
+
+footer {
+  grid-column-end: span 2;
+  background-color: var(--dark-blue);
+}
+
+h1 {
+  color: var(--beige);
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  color: var(--beige);
+}
+
+#news p {
+  margin: 0.5rem;
+  padding: 0.4rem;
+  background-color: var(--mid-blue);
+}
+
+/*
+
+font-family: "Staatliches", cursive;
+font-family: "Raleway", sans-serif;
+
+*/
