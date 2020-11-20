@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="sidepage.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
       rel="stylesheet"
@@ -17,53 +17,75 @@
   </head>
   <body>
     <header>
-      <div class="title-container">
-        <h1 class="title">Happy Day Inc.™</h1>
+      <div class="header-flex-container">
+        <a href="index.html" class="back-button"> &lt; </a>
       </div>
-      <div class="shops-button">
+      <div class="header-flex-container">
+        <h2 class="title">All Cars</h2>
+      </div>
+      <div class="header-flex-container">
         <a
           href="https://www.google.se/maps/search/bilar/@61.4485387,17.3760695,5z/data=!3m1!4b1"
-          class="shops-button-text"
+          class="shops-button link-text"
           >Find a shop
         </a>
       </div>
     </header>
-
-    <nav>
-      <a href="cars.html">Cars</a>
-
-      <a href="signup.html">Sign Up</a>
-
-      <a href="aboutus.html">About Us</a>
-    </nav>
-
-    <article id="news">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
-        ipsum. Dolore cum corrupti nostrum fugiat illum voluptates explicabo
-        earum voluptatibus deleniti labore, est beatae molestiae architecto
-        aliquid repellat, doloremque magni?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-        provident corporis repudiandae quod earum temporibus. Tempora quisquam
-        natus, perspiciatis alias suscipit repellendus similique eum facere,
-        placeat reprehenderit aspernatur, iusto voluptate?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-        perspiciatis excepturi fugiat voluptas? Accusantium ipsam illum, quae id
-        excepturi, libero fuga nesciunt vel a inventore explicabo est delectus,
-        optio itaque!
-      </p>
-    </article>
-
-    <article id="cars">
-      <img src="blue car.jpg" alt="FIXA SENARE" />
-      <img src="garage.jpg" alt="^^^^^^" />
-      <img src="steering wheel.jpg" alt="^^^^" />
-    </article>
-
-    <footer></footer>
+    <main class="cars-main">
+      <article id="dominator">
+        <h1>Dominator</h1>
+        <p>
+          The perfect car for anyone who wants to live in the moment. This is
+          what a modern car looks like.
+        </p>
+        <button type="button" onclick="alert('Not Currently Functional!')">
+          Read More
+        </button>
+      </article>
+      <article id="huntley">
+        <h1>Huntley</h1>
+        <p>
+          The perfect car for the adventure. If that is to travel across the
+          land or to the grocery market is your choice.
+        </p>
+        <button type="button" onclick="alert('Not Currently Functional!')">
+          Read More
+        </button>
+      </article>
+      <article id="asea">
+        <h1>Asea</h1>
+        <p>
+          The one most consistent car out there. Whatever you think of, the Asea
+          has got you covered.
+        </p>
+        <button type="button" onclick="alert('Not Currently Functional!')">
+          Read More
+        </button>
+      </article>
+      <article id="turismo">
+        <h1>turismo</h1>
+        <p>
+          The one and only car. The biggest and most powerful car on the market.
+          You think you got what it takes?
+        </p>
+        <button type="button" onclick="alert('Not Currently Functional!')">
+          Read More
+        </button>
+      </article>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/albin_norback/?hl=sv">
+            <img src="insta.png" alt="Instagrams Logo" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/user/TeslaMotors"></a>
+          <img src="yt.png" alt="Youtubes Logo" />
+        </li>
+      </ul>
+      <p>Copyright © 2020 Happy Day Inc.™</p>
+    </footer>
   </body>
 </html>
