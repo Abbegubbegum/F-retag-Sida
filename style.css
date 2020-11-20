@@ -61,12 +61,24 @@ a {
   margin-left: auto;
 }
 
+.shops-button:hover {
+  background-color: var(--mid-blue);
+}
+
 nav {
   display: flex;
   grid-column-end: span 2;
   background-color: var(--mid-blue);
   justify-content: space-around;
   align-items: center;
+}
+
+nav a {
+  padding: 0.2rem;
+}
+
+nav a:hover {
+  background-color: var(--light-blue);
 }
 
 #news {
@@ -93,6 +105,7 @@ h1 {
   color: var(--beige);
   font-family: "Staatliches", cursive;
   font-size: 3rem;
+  white-space: nowrap;
 }
 
 p {
@@ -106,6 +119,26 @@ p {
   background-color: var(--mid-blue);
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  align-self: flex-end;
+  margin: 0.3rem;
+}
+
+footer img {
+  margin-left: 1.5vw;
+  height: 9vh;
+}
 /*
 
 font-family: "Staatliches", cursive;
