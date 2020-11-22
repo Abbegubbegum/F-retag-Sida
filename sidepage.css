@@ -147,7 +147,7 @@ header {
 
 #huntley {
   background-image: url("Huntley.jpg");
-  background-position: left 0 bottom -23vh;
+  background-position: left 0 top -37vh;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -159,7 +159,7 @@ header {
 
 #asea {
   background-image: url("Asea.jpg");
-  background-position: left 0 bottom -33vh;
+  background-position: left 0 top -32vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -170,7 +170,7 @@ header {
 
 #turismo {
   background-image: url("Turismo.jpg");
-  background-position: left 0 bottom -32vh;
+  background-position: left 0 top -35vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
